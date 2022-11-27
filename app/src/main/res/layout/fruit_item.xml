@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView android:layout_width="120dp" android:layout_height="120dp"
+               android:id="@+id/fruitImg"
+               android:layout_margin="16dp"
+               android:layout_marginStart="16dp"/>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="24dp"
+              android:text="Introduce"
+              android:id="@+id/fruitIntroduce"
+              android:layout_toRightOf="@+id/fruitImg"
+              android:layout_margin="12dp"
+              android:layout_marginLeft="25dp"
+              android:textColor="#000000"
+    />
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="22sp"
+              android:text="name"
+              android:textColor="#FFBFBFBF"
+              android:id="@+id/fruitName"
+              android:layout_below="@+id/fruitIntroduce"
+              android:layout_alignLeft="@+id/fruitIntroduce"
+              android:layout_margin="12dp"
+              android:layout_marginTop="5dp"
+    />
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="18sp"
+              android:text="price"
+              android:textColor="#FFBFBFBF"
+              android:id="@+id/fruitPrice"
+              android:layout_below="@+id/fruitName"
+              android:layout_alignLeft="@+id/fruitIntroduce"
+              android:layout_marginTop="6dp"
+    />
+
+</RelativeLayout>
